@@ -1,0 +1,4 @@
+
+
+[target.x86-64-uknown-linix-gnu]
+rustflags = ["-C", "linker=clang", "-C", "link-arg=-fuse-ld=lld"]
